@@ -6,7 +6,7 @@ import base64
 st.set_page_config(page_title="BB84 Quantum Simulator", layout="centered")
 
 # UI HEADER
-st.markdown("<h1 style='text-align: center; color: #1F51FF;'>BB84 Quantum Key Distribution Simulator</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #1F51FF;'>BB84 Quantum Key Distribution Simulator🚀</h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center;'>🔐 Project by <b>Atharva Dubey</b></h5>", unsafe_allow_html=True)
 
 st.markdown("---")
@@ -86,4 +86,4 @@ st.markdown("---")
 st.markdown("🔎 **Note:** This real-time simulation flags eavesdropping if error rate exceeds 20%. Random quantum noise also affects results. Accurate decryption is possible only in secure channel conditions.")
 
 st.markdown("<p style='text-align: center; color: grey;'>🛰️ India's Q-Insight Protocol | Quantum Secure Future | Connect with me on <a href='https://www.linkedin.com/in/atharva-dubey-76b566331' target='_blank'>LinkedIn</a></p>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: 13px;'>🧠 Project by Atharva Dubey<br>B.Tech – SGSITS Indore<br>B.S. in Data Science – IIT Madras</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 13px;'>🧠 Project by Atharva Dubey<br>B.Tech | SGSITS Indore<br>B.S. in Data Science | IIT Madras</p>", unsafe_allow_html=True)
