@@ -82,7 +82,7 @@ if run and message:
 
 # Footer Note
 st.markdown("---")
-st.markdown("🔎 **Note:** This simulation detects Eve based on error rate threshold of 20%. Random noise and quantum base mismatch affect final key accuracy. The decrypted message will be accurate only if the channel is secure.")
+st.markdown("🔎 **Note:** This simulation detects Real Time Eve based on error rate threshold of 20%. Random noise and quantum base mismatch affect final key accuracy. The decrypted message will be accurate only if the channel is secure.")
 
-st.markdown("<p style='text-align: center; color: grey;'>🛰️ India's Q-Insight Protocol | Quantum Secure Future | Connect with me on <a href='https://www.linkedin.com/in/atharva-dubey-76b566331' target='_blank'>LinkedIn</a></p>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: 13px;'>🧠 Project by Atharva Dubey<br>B.Tech – SGSITS Indore<br>B.S. in Data Science – IIT Madras</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: grey;'>🛰️ India's Q-Insight Protocol(More updates coming soon stay connected :) | Quantum Secure Future | Connect with me on <a href='https://www.linkedin.com/in/atharva-dubey-76b566331' target='_blank'>LinkedIn</a></p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 13px;'>🧠 Project by Atharva Dubey<br>B.Tech | SGSITS Indore<br>B.S. in Data Science | IIT Madras</p>", unsafe_allow_html=True)
