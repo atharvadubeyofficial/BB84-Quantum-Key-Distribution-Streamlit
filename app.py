@@ -4,6 +4,19 @@ import random
 import base64
 
 st.set_page_config(page_title="BB84 Quantum Simulator", layout="centered")
+# Hide Streamlit branding and menu
+st.markdown(
+    """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    .st-emotion-cache-6qob1r {display: none;}
+    .viewerBadge_container__1QSob {display: none;}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.markdown("<h1 style='text-align: center; color: #0077cc;'>BB84 Quantum Key Distribution Simulator 🚀</h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center;'>Project by <b>Atharva Dubey</b></h5>", unsafe_allow_html=True)
@@ -85,5 +98,5 @@ if run and message:
 
 st.markdown("---")
 st.markdown("🔎 **Note:** This simulation detects Real Time Eve based on error rate threshold of 20%. Random noise and quantum base mismatch affect final key accuracy in every trial. The decrypted message will be accurate only if the channel is secure.")
-st.markdown("<p style='text-align: center; color: grey;'>🛰️ India's Q-Insight Protocol | Quantum Secure Future | Connect with me on <a href='https://www.linkedin.com/in/atharva-dubey-76b566331' target='_blank'>LinkedIn</a></p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: grey;'>🛰️ India's Q-Insight Protocol | Quantum Secure Future | More updates coming soon Stay Connected 🙂 | Connect with me on <a href='https://www.linkedin.com/in/atharva-dubey-76b566331' target='_blank'>LinkedIn</a></p>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; font-size: 13px;'>🧠 Project by Atharva Dubey<br>B.Tech | SGSITS Indore<br>B.S. in Data Science | IIT Madras</p>", unsafe_allow_html=True)
