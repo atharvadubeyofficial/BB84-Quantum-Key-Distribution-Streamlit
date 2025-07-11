@@ -53,7 +53,7 @@ st.markdown("<div class='main-title'>🚀 BB84 Quantum Key Distribution Simulato
 st.markdown("<div class='subtitle'><b>Project by Atharva Dubey</b></div>", unsafe_allow_html=True)
 
 # Input box
-message = st.text_input("🔐 Enter a message to encrypt and simulate using BB84 protocol:")
+message = st.text_input("🔐 Enter a secret message to encrypt and simulate using BB84 protocol:")
 
 # Button
 run = st.button("🔁 Run Simulation")
@@ -129,7 +129,7 @@ if run and message:
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Note
-st.markdown("<div class='note'>🔎 <b>Note:</b> This simulation detects Eve based on an error rate threshold of 20%. Random noise and quantum base mismatches affect key accuracy. The decrypted message is only shown if the quantum channel remains secure and intact.</div>", unsafe_allow_html=True)
+st.markdown("<div class='note'>🔎 <b>Note:</b> This simulation detects Real Time Eve based on an error rate threshold of 20% in every trial. Random noise and quantum base mismatches affect key accuracy. The decrypted message is only shown if the quantum channel remains secure and intact.</div>", unsafe_allow_html=True)
 
 # Footer
-st.markdown("<div class='footer'>🛰️ India's Q-Insight Protocol | Quantum Secure Future<br>Connect on <a href='https://www.linkedin.com/in/atharva-dubey-76b566331' target='_blank'>LinkedIn</a><br><br>🧠 Project by Atharva Dubey<br>B.Tech – SGSITS Indore<br>B.S. in Data Science – IIT Madras</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>🛰️ India's Q-Insight Protocol | Quantum Secure Future<br>Connect on <a href='https://www.linkedin.com/in/atharva-dubey-76b566331' target='_blank'>LinkedIn</a><br><br>🧠 Project by Atharva Dubey<br>B.Tech | SGSITS Indore<br>B.S. in Data Science | IIT Madras</div>", unsafe_allow_html=True)
