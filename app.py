@@ -5,7 +5,7 @@ import base64
 
 st.set_page_config(page_title="BB84 Quantum Simulator", layout="centered")
 
-st.markdown("<h1 style='text-align: center; color: #0077cc;'>BB84 Quantum Key Distribution Simulator</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #0077cc;'>BB84 Quantum Key Distribution Simulator 🚀</h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center;'>Project by <b>Atharva Dubey</b></h5>", unsafe_allow_html=True)
 st.markdown("---")
 
@@ -84,6 +84,6 @@ if run and message:
         st.code(mismatch_log if mismatch_log else "None")
 
 st.markdown("---")
-st.markdown("🔎 **Note:** This simulation detects Eve based on error rate threshold of 20%. Random noise and quantum base mismatch affect final key accuracy. The decrypted message will be accurate only if the channel is secure.")
+st.markdown("🔎 **Note:** This simulation detects Real Time Eve based on error rate threshold of 20%. Random noise and quantum base mismatch affect final key accuracy in every trial. The decrypted message will be accurate only if the channel is secure.")
 st.markdown("<p style='text-align: center; color: grey;'>🛰️ India's Q-Insight Protocol | Quantum Secure Future | Connect with me on <a href='https://www.linkedin.com/in/atharva-dubey-76b566331' target='_blank'>LinkedIn</a></p>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: 13px;'>🧠 Project by Atharva Dubey<br>B.Tech – SGSITS Indore<br>B.S. in Data Science – IIT Madras</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 13px;'>🧠 Project by Atharva Dubey<br>B.Tech | SGSITS Indore<br>B.S. in Data Science | IIT Madras</p>", unsafe_allow_html=True)
