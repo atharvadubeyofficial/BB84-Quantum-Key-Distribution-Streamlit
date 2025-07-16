@@ -27,3 +27,7 @@ Still working....more updates coming soon...
 Thanks for reading 
 
 ##
+
+Project by Atharva Dubey 
+B.tech SGSITS INDORE | B.S. IIT MADRAS
+LinkedIn:- https://www.linkedin.com/in/atharva-dubey-76b566331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
